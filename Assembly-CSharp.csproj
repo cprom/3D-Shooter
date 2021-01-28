@@ -64,10 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RaycastShoot.cs" />
     <Compile Include="Assets\Scripts\RotateCamera.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/chenprom/Documents/UnityProjects/Create with Code/Chen Prom - Personal Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

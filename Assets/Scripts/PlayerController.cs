@@ -8,12 +8,16 @@ public class PlayerController : MonoBehaviour
     public float speed;
     private float zBound = 23;
     private float xBound = 23;
+
+    public GameObject bulletPrefab;
+    public GameObject barrelTip;
+    public float bulletSpeed = 50.0f;
+
    
     // Start is called before the first frame update
     void Start()
     {
-       
-
+      
     }
 
     // Update is called once per frame
@@ -72,6 +76,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
+
+      
     }
 
     // Aim and rotate player to position of mouse cursor
@@ -87,4 +93,6 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+
+ 
 }
