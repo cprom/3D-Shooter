@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public float speed = 10.0f;
+    public float speed;
     private float zBound = 23;
     private float xBound = 23;
    
@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Aim and rotate player to position of mouse
+    // Aim and rotate player to position of mouse cursor
     void PlayerRotation()
     {
         
