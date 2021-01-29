@@ -30,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8835485868535305966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.745, y: -0.044737816, z: 7.3241}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.745, y: 2, z: 7.3241}
+  m_LocalScale: {x: 1, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,8 +92,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4351171, y: 1.0380905, z: 2.85283}
-  m_Center: {x: -0.07281682, y: 0.019045226, z: 0.33783212}
+  m_Size: {x: 1.4351171, y: 1.0380905, z: 1.1710443}
+  m_Center: {x: -0.07281679, y: 0.019045234, z: -0.026216984}
 --- !u!54 &8835485868535305955
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -102,7 +102,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8835485868535305966}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 30
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbc434393ec1404b95568cd9c16827b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 200
 --- !u!114 &8835485868535305957
 MonoBehaviour:
   m_ObjectHideFlags: 0
