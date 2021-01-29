@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{CDE7C4C6-6E9F-88DE-E38F-01FE4A15D657}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="8" Column="46" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="17" Column="53" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="31" Column="9" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="16" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

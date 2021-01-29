@@ -5,14 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public float speed = 10.0f;
+    public float speed;
     private float zBound = 23;
     private float xBound = 23;
-   
+
+
+    public GameObject barrelTip;
+    public float bulletSpeed = 50.0f;
+
+
     // Start is called before the first frame update
     void Start()
     {
-       
 
     }
 
@@ -29,7 +33,7 @@ public class PlayerController : MonoBehaviour
     //Prevent player from leaving game area
     void ConstrainPlayerPosition()
     {
-        
+
         if (transform.position.z < -zBound)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, -zBound);
@@ -52,7 +56,7 @@ public class PlayerController : MonoBehaviour
     // Character controls using arrow keys
     void PlayerMovement()
     {
-        
+
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
@@ -72,12 +76,14 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
+
+
     }
 
-    // Aim and rotate player to position of mouse
+    // Aim and rotate player to position of mouse cursor
     void PlayerRotation()
     {
-        
+
         Plane plane = new Plane(Vector3.up, transform.position);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         float dist;
@@ -85,6 +91,27 @@ public class PlayerController : MonoBehaviour
         {
             transform.LookAt(ray.GetPoint(dist));
 
+        }
+    }
+
+
+    //Check Collision with Enemy
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Hit By Enemy");
+        }
+    }
+
+    // Check collision with Ammo
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Powerup"))
+        {
+            Destroy(other.gameObject);
         }
     }
 }
