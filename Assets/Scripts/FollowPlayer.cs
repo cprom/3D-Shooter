@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour
     // Attached to Main Camera used to follow player movement
 
     public GameObject player;
-    private Vector3 offset = new Vector3(0, 20, -15);
+    private Vector3 offset = new Vector3(0, 2f, -3);
     // Start is called before the first frame update
     void Start()
     {

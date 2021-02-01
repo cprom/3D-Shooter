@@ -9,17 +9,21 @@ public class RaycastShoot : MonoBehaviour
     public float weaponRange = 50f;
     public float hitForce = 100f;
     public Transform barrelTip;
+    public ParticleSystem muzzleFlashParticle;
+    public AudioSource gunShot;
 
     private Camera fpsCam;
     private WaitForSeconds shotDuration = new WaitForSeconds(0.07f);
     private LineRenderer laserLine;
-    private float nextFire;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         laserLine = GetComponent<LineRenderer>();
         fpsCam = GetComponent<Camera>();
+        gunShot = GetComponent<AudioSource>();
+       
     }
 
     // Update is called once per frame
@@ -27,6 +31,9 @@ public class RaycastShoot : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            gunShot.Play();
+            Instantiate(muzzleFlashParticle, transform.position, muzzleFlashParticle.transform.rotation);
+
 
             StartCoroutine(ShotEffect());
 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class PlayerController : MonoBehaviour
 {
 
@@ -12,12 +14,14 @@ public class PlayerController : MonoBehaviour
 
     public GameObject barrelTip;
     public float bulletSpeed = 50.0f;
+    public ParticleSystem greenLineParticle;
+    public AudioSource reloadSound;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        reloadSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +31,8 @@ public class PlayerController : MonoBehaviour
         ConstrainPlayerPosition();
         PlayerMovement();
         PlayerRotation();
+
+        
 
     }
 
@@ -78,9 +84,10 @@ public class PlayerController : MonoBehaviour
         }
 
 
+
     }
 
-    // Aim and rotate player to position of mouse cursor
+    //Aim and rotate player to position of mouse cursor
     void PlayerRotation()
     {
 
@@ -112,6 +119,8 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Powerup"))
         {
             Destroy(other.gameObject);
+            Instantiate(greenLineParticle, other.gameObject.transform.position, greenLineParticle.transform.rotation);
+            reloadSound.Play();
         }
     }
 }

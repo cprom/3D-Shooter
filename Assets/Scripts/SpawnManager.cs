@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour
 
     private float zSpawnRange = 22.0f;
     private float xSpawnRange = 22.0f;
+    private float zSpawnRangeLower = -9;
     private float ySpawnPos = 2.0f;
 
     private float startDelay = 5.0f;
@@ -35,7 +36,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnEnemy()
     {
         float randomX = Random.Range(-xSpawnRange, xSpawnRange);
-        float randomZ = Random.Range(-zSpawnRange, zSpawnRange);
+        float randomZ = Random.Range(zSpawnRangeLower, zSpawnRange);
         int randomIndex = Random.Range(0, enemies.Length);
 
         Vector3 spawnPos = new Vector3(randomX, ySpawnPos, randomZ);
