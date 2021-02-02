@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{CDE7C4C6-6E9F-88DE-E38F-01FE4A15D657}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HitBox.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/SpawnManager.cs" />
-      <File FileName="Assets/Scripts/EnemyMovement.cs" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" />
-      <File FileName="Assets/Scripts/RotateCamera.cs" />
-      <File FileName="Assets/Scripts/HitBox.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="39" Column="38" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="59" Column="2" />
+      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="11" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

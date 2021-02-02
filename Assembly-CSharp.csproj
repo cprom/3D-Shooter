@@ -64,12 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
-    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
+    <Compile Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+    <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
+    <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
+    <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
     <Compile Include="Assets\Scripts\DestroyAfterDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
@@ -78,14 +81,18 @@
     <Compile Include="Assets\Scripts\RaycastShoot.cs" />
     <Compile Include="Assets\Scripts\RotateCamera.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
-    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
-    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Asset Store\SimpleSky\ReadMe.txt" />
+    <None Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Shaders\SupercyanShader.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Shaders\SupercyanShaderLighting.cginc" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Shaders\Legacy\CelShader.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+    <None Include="Assets\Asset Store\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
     <Reference Include="Unity.InputSystem">
       <HintPath>/Users/chenprom/Documents/UnityProjects/Create with Code/Chen Prom - Personal Project/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>

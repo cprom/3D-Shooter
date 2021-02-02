@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
 
-    public float speed = 1000.0f;
+    public float speed = 500.0f;
     private Rigidbody enemyRb;
     private GameObject player;
     private float zBound = 23;
@@ -29,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
         // Make enemy go to player's position
         Vector3 lookDirection = (player.transform.position - transform.position).normalized;
         enemyRb.AddForce(lookDirection * speed );
-        transform.LookAt(lookDirection);
+        //transform.LookAt(lookDirection);
     }
 
 
