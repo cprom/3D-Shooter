@@ -10,7 +10,8 @@ public class SpawnManager : MonoBehaviour
     private float zSpawnRange = 22.0f;
     private float xSpawnRange = 22.0f;
     private float zSpawnRangeLower = -9;
-    private float ySpawnPos = 2.0f;
+    private float ySpawnPos = 4.0f;
+    private float yPowerupSpawnPos = 2.0f;
 
     private float startDelay = 5.0f;
     private float enemySpawnTime = 7.0f;
@@ -50,7 +51,7 @@ public class SpawnManager : MonoBehaviour
         float randomZ = Random.Range(-zSpawnRange, zSpawnRange);
         int randomIndex = Random.Range(0, enemies.Length);
 
-        Vector3 spawnPos = new Vector3(randomX, ySpawnPos, randomZ);
+        Vector3 spawnPos = new Vector3(randomX, yPowerupSpawnPos, randomZ);
 
         Instantiate(powerup, spawnPos, powerup.gameObject.transform.rotation);
     }

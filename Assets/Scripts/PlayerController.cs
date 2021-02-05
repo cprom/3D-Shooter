@@ -99,6 +99,7 @@ public class PlayerController : MonoBehaviour
             transform.LookAt(ray.GetPoint(dist));
 
         }
+        
     }
 
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HitBox : MonoBehaviour
 {
-    public int currentHealth = 3;
+    public int currentHealth = 1;
     public ParticleSystem explosionParticle;
    
 

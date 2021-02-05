@@ -1,22 +1,30 @@
 ﻿<Properties StartupConfiguration="{CDE7C4C6-6E9F-88DE-E38F-01FE4A15D657}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/SpawnManager.cs" Line="39" Column="38" />
-      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="59" Column="2" />
-      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="11" Column="46" />
+      <File FileName="Assets/Scripts/AimGun.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="85" Column="1" />
+      <File FileName="Assets/Scripts/HitBox.cs" Line="17" Column="13" />
+      <File FileName="Assets/Scripts/RaycastShoot.cs" Line="75" Column="6" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="54" Column="65" />
+      <File FileName="Assets/Scripts/EnemyMovement.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Chen Prom - Personal Project" expanded="True" selected="True" />
+          <Node name="Chen Prom - Personal Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyMovement.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2368e5ff-fbd2-4804-a048-65659568a36c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bd207215-1f89-4d73-97cc-71d71f2a9c36" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -49,7 +49,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7984571679488464813
 Transform:
   m_ObjectHideFlags: 0
@@ -121,8 +121,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4758215, y: 1.379006, z: 0.40375534}
-  m_Center: {x: 0.16465807, y: 0.18950313, z: 0.03340875}
+  m_Size: {x: 2.3910208, y: 1.3670816, z: 0.39498723}
+  m_Center: {x: -0.07164049, y: 0.19546533, z: 0.012240123}
 --- !u!54 &7984571679488464812
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbc434393ec1404b95568cd9c16827b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 10
 --- !u!114 &7984571679488464814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9ee22cae10847d68a0a9a4d798cdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 4
+  currentHealth: 1
   explosionParticle: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!1001 &5444279781658580050
 PrefabInstance:

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
     <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
     <Compile Include="Assets\Asset Store\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
+    <Compile Include="Assets\Scripts\AimGun.cs" />
     <Compile Include="Assets\Scripts\DestroyAfterDelay.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />

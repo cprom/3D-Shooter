@@ -5,10 +5,10 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
 
-    public float speed = 500.0f;
+    public float speed = 1.0f;
     private Rigidbody enemyRb;
     private GameObject player;
-    private float zBound = 23;
+    private float zBound = 20;
     private float xBound = 23;
 
 
@@ -21,15 +21,15 @@ public class EnemyMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
         
     {
         ConstrainPlayerPosition();
         
         // Make enemy go to player's position
-        Vector3 lookDirection = (player.transform.position - transform.position).normalized;
-        enemyRb.AddForce(lookDirection * speed );
-        //transform.LookAt(lookDirection);
+       // Vector3 lookDirection = (player.transform.position - transform.position).normalized;
+        enemyRb.AddForce(Vector3.back * speed );
+       // transform.LookAt(lookDirection);
     }
 
 
